@@ -7,9 +7,9 @@ def write_todos(todos_arg,filepath="data.txt"):
     with open(filepath,'w') as file:
             file.writelines(todos_arg)
 
-print ("i am outside if")
+#print ("i am outside if")
 
-print (__name__)
+#print (__name__)
 
 if __name__ == "__main__":   # this is used to execute the below lins only when this file is executed explicitly , not when called 
                              #  by some other file.
